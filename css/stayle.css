@@ -1,8 +1,9 @@
 body {
-font-family: "Raleway", " Roboto ";
-font-size: 14px
-line-height:1,14 ;
-color: ;}
+font-family: "Roboto",sans-serif;
+font-size: 14px ; 
+line-height:1.14 ;
+color: #757575; }
+
 /* -- Text colors-- */
 
 
@@ -14,8 +15,9 @@ color: ;}
 line-height: 1,14;
 letter-spacing: 0.02em;
 font-size: 14px;
-color: #2196F3
-;}
+color:#212121;}
+.header { color: #212121;}
+
 .link-web { 
 font-size: 14px;
 letter-spacing: 0.02em;
@@ -23,18 +25,21 @@ color: #2196F3;}
 
 .link-tel {
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 color: #757575;}
 
 .link-st {font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;}
+color:#2196F3;}
 
-.general1 { font-weight: 900;
+.general1 {
+background-color: black;
+ font-family: "Raleway" ;   
+font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -42,57 +47,64 @@ color: #FFFFFF;}
 
 .btn {font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.8;
  display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;}
+color: #FFFFFF;
+background: #2196F3;}
 
 .general { font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;}
 
-.text { font-weight: 400;
+.text { 
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: #757575;}
 
 .about { font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1,16;
 letter-spacing: 0.03em;
 color: #212121;}
 .aboutme { font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 letter-spacing: 0.03em;
 color: #212121;}
 
-.bob {font-weight: 400;
+.bob { 
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 letter-spacing: 0.03em;
 color: #757575;;}
-.footer-link1 {font-weight: 700;
+.footer {background-color: black;}
+
+.footer-link1 {
+text-decoration: none;  
+font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: #2196F3;}
 
-.footer-link2 { font-weight: 400;
+.footer-link2 {
+text-decoration: none; 
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: #FFFFFF;}
 
-.footer-link { font-weight: 400;
+.footer-link { 
+text-decoration: none ;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);}
 
